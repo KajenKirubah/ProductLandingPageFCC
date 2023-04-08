@@ -1,0 +1,46 @@
+.primary-nav {
+    font-size: 1.9rem;
+    ul {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0.5em;
+
+        @mixin atMedium {
+            width: auto;
+            display: inline-block;
+        }
+    }
+
+    &__nav-link {
+        display: block;
+        margin: 0 0 .25rem 0;
+        padding: .5rem;
+    
+        @mixin atMedium {
+            display: inline-block;
+            margin-right: 4rem;
+            margin-bottom: 0;
+        }
+    
+        &:hover {
+            background-color: #5dade2;
+        }
+    
+        a {
+            text-decoration: none;
+            color: #333
+        }
+    
+        &:first-of-type {
+            margin-top: 0.5rem;
+    
+            @mixin atSmall {
+                margin-top: 0;
+            }
+        }
+    }
+    
+}

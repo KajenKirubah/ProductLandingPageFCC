@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <img class="header__logo" id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo" />
+      <nav class="primary-nav" id="nav-bar">
+        <ul>
+          <li class="nav-link primary-nav__nav-link"><a href="#features">Features</a></li>
+          <li class="nav-link primary-nav__nav-link"><a href="#howitworks">How it Works</a></li>
+          <li class="nav-link primary-nav__nav-link"><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content_wrap">
+      <main>
+        <section class="hero bottom-margin--large">
+          <h1 class="hero__title">Handcrafted, home-made masterpieces</h1>
+          <form class="hero__form" id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+              <input class="hero__input" id="email" type="email" placeholder="Enter your email address" name="email_address" required />
+              <input class="hero__input" id="submit" type="submit" value="Get Started" />
+            </fieldset>
+          </form>
+        </section>
+        <section id="features">
+          <div class="grid_features">
+            <div class="grid_features__row bottom-margin--large">
+              <div class="grid_features__logo">
+                <i class="fa fa-3x fa-fire"></i>
+              </div>
+              <div class="grid_features__description">
+                <h2>Premium Materials</h2>
+                <p>
+                  Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                </p>
+              </div>
+            </div>
+            <div class="grid_features__row bottom-margin--large">
+              <div class="grid_features__logo">
+                <i class="fa fa-3x fa-truck"></i>
+              </div>
+              <div class="grid_features__description">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+              </div>
+            </div>
+            <div class="grid_features__row bottom-margin--large">
+              <div class="grid_features__logo">
+                <i class="fa fa-3x fa-battery-full"></i>
+              </div>
+              <div class="grid_features__description">
+                <h2>
+                  Quality Assurance
+                </h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="how-video bottom-margin--large" id="howitworks">
+          <iframe src="https://www.youtube.com/embed/w6i2HAWwfL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="pricing bottom-margin--large" id="pricing">
+          <div class="pricing__block">
+            <h3 class="pricing__title">TENOR TROMBONE</h3>
+            <div class="pricing__description">
+              <h2>$600</h2>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+            </div>
+            <button class="pricing__button">SELECT</button>
+          </div>
+          <div class="pricing__block block2">
+            <h3 class="pricing__title">BASS TROMBONE</h3>
+            <div class="pricing__description">
+              <h2>$900</h2>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+              <p>Lorem ipsum.</p>
+            </div>
+            <button class="pricing__button">SELECT</button>
+          </div>
+          <div class="pricing__block">
+            <h3 class="pricing__title">VALVE TROMBONE</h3>
+            <div class="pricing__description">
+              <h2>$900</h2>
+              <p>Plays similar to a Trumpet</p>
+              <p>Great for Jazz Bands</p>
+              <p>Lorem ipsum dolor.</p>
+              <p>Lorem ipsum.</p>
+            </div>
+            <button class="pricing__button">SELECT</button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <ul class="footer__links">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Contact</li>
+      </ul>
+      <p>Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
+</html>
+
+

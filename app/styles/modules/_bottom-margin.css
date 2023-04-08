@@ -1,0 +1,7 @@
+.bottom-margin--large {
+    margin-bottom: 2.5rem;
+
+    @mixin atMedium {
+        margin-bottom: 5rem;
+    }
+}

@@ -1,0 +1,64 @@
+.grid_features {
+
+    width: 100%;
+    margin: 1rem auto;
+
+    @mixin atMedium {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    &__row {
+
+        font-size: 1.8rem;
+
+        h2 {
+            margin: 1.5rem 0 0.5rem 0;
+        }
+
+        @mixin atMedium {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 4rem;
+            font-size: 2rem;
+
+
+
+        }
+    }
+
+    &__logo {
+        padding-top: 1rem;
+        width: fit-content;
+        margin: auto;
+        color: orangered;
+
+
+
+        @mixin atMedium {
+            width: unset;
+            grid-column: span 1;
+            font-size: 2rem;
+            justify-self: center;
+            align-self: center;
+        }
+
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 1.6rem;
+
+        p {
+            margin: 0;
+        }
+
+        @mixin atMedium {
+            text-align: left;
+            grid-column: 2 / span 4;
+            font-size: 1.8rem;
+        }
+    }
+
+}

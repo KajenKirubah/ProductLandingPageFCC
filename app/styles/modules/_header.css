@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #5DADE2cf;
+    padding: 1rem 2rem;
+
+    @mixin atMedium {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    &__logo {
+        max-width: 100%;
+        height: auto;
+        max-height: 35px;
+    }
+
+    
+}
+
+
+

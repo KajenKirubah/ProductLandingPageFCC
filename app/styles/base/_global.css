@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;  
+    padding-bottom: 10rem;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'lato', sans-serif;
+}

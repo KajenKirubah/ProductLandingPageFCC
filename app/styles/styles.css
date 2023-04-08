@@ -1,0 +1,35 @@
+@import './base/_mixins';
+@import './base/_global';
+@import './modules/_header';
+@import './modules/_content-wrap';
+@import './modules/_hero';
+@import './modules/_how-video';
+@import './modules/_primary-nav';
+@import './modules/_grid-features';
+@import './modules/_pricing';
+@import './modules/_bottom-margin';
+@import './modules/_footer';
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+    #form #email,
+    #form #submit {
+        display: block;
+        width: 100%;
+        height: 3rem;
+        text-align: center;
+    }
+
+    #form #submit {
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+
+}
